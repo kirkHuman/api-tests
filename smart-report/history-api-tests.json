@@ -1,0 +1,199 @@
+{
+  "runs": [],
+  "tests": {
+    "[desktop] desktop/products/products.spec.ts::GET /products returns paginated list": [
+      {
+        "passed": true,
+        "duration": 260,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::GET /products/:id returns single product": [
+      {
+        "passed": true,
+        "duration": 41,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/auth/auth.spec.ts::GET /auth/login with valid credentials returns user and tokens": [
+      {
+        "passed": true,
+        "duration": 307,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/auth/auth.spec.ts::POST /auth/refresh returns new tokens": [
+      {
+        "passed": true,
+        "duration": 384,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/auth/auth.spec.ts::GET /auth/me with valid token returns current user": [
+      {
+        "passed": true,
+        "duration": 389,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::GET /products/search returns matching products": [
+      {
+        "passed": true,
+        "duration": 136,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::GET /products/categories returns category list": [
+      {
+        "passed": true,
+        "duration": 161,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::GET /products?sortBy&order returns sorted list": [
+      {
+        "passed": true,
+        "duration": 139,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::GET /products/category/:category returns products in category": [
+      {
+        "passed": true,
+        "duration": 155,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::POST /products/add returns created product": [
+      {
+        "passed": true,
+        "duration": 120,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::PUT /products/:id returns updated product": [
+      {
+        "passed": true,
+        "duration": 124,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/products/products.spec.ts::DELETE /products/:id returns deleted product with isDeleted": [
+      {
+        "passed": true,
+        "duration": 110,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::GET /users returns paginated list": [
+      {
+        "passed": true,
+        "duration": 121,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::GET /users/:id returns single user": [
+      {
+        "passed": true,
+        "duration": 116,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::GET /users/search returns matching users": [
+      {
+        "passed": true,
+        "duration": 120,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::POST /users/add returns created user with id": [
+      {
+        "passed": true,
+        "duration": 126,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::PUT /users/:id returns updated user": [
+      {
+        "passed": true,
+        "duration": 111,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::GET /users?limit&skip pagination works": [
+      {
+        "passed": true,
+        "duration": 230,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::DELETE /users/:id returns deleted user with isDeleted": [
+      {
+        "passed": true,
+        "duration": 121,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ],
+    "[desktop] desktop/users/users.spec.ts::GET /users/:id/carts returns user carts": [
+      {
+        "passed": true,
+        "duration": 112,
+        "timestamp": "2026-03-16T21:51:55.265Z",
+        "skipped": false,
+        "retry": 0
+      }
+    ]
+  },
+  "summaries": [
+    {
+      "runId": "run-1773697913115",
+      "timestamp": "2026-03-16T21:51:53.115Z",
+      "total": 20,
+      "passed": 20,
+      "failed": 0,
+      "skipped": 0,
+      "flaky": 0,
+      "slow": 0,
+      "duration": 2149,
+      "passRate": 100
+    }
+  ]
+}
