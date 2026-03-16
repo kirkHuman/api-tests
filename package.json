@@ -5,9 +5,9 @@
   "scripts": {
     "test": "playwright test",
     "test:desktop": "playwright test --project=desktop",
-    "test:auth": "playwright test tests/desktop/auth",
-    "test:users": "playwright test tests/desktop/users",
-    "test:products": "playwright test tests/desktop/products",
+    "test:auth": "playwright test tests/auth",
+    "test:users": "playwright test tests/users",
+    "test:products": "playwright test tests/products",
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed"
   },

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { AuthApi } from '../../../common/auth.api';
+import { AuthApi } from '../../common/auth.api';
 
 test.describe('Auth API @desktop', () => {
   let authApi: AuthApi;
