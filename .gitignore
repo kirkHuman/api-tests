@@ -8,3 +8,5 @@ blob-report/
 .env.local
 *.log
 smart-report/
+allure-results/
+allure-report/
