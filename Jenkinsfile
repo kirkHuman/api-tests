@@ -38,9 +38,17 @@ pipeline {
 
   post {
     always {
+      // Archive HTML reports for download
       archiveArtifacts artifacts: 'smart-report/**', fingerprint: true, allowEmptyArchive: true
       archiveArtifacts artifacts: 'allure-results/**', fingerprint: true, allowEmptyArchive: true
       archiveArtifacts artifacts: 'allure-report/**', fingerprint: true, allowEmptyArchive: true
+
+      // Publish Allure report inside Jenkins (Allure Jenkins plugin)
+      allure([
+        includeProperties: false,
+        jdk: '',
+        results: [[path: 'allure-results']]
+      ])
     }
   }
 }
