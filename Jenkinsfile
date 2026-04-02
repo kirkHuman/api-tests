@@ -25,11 +25,22 @@ pipeline {
         sh 'npx playwright test'
       }
     }
+
+    stage('Generate Allure Report') {
+      when {
+        expression { fileExists('allure-results') }
+      }
+      steps {
+        sh 'npx allure generate allure-results --clean -o allure-report'
+      }
+    }
   }
 
   post {
     always {
       archiveArtifacts artifacts: 'smart-report/**', fingerprint: true, allowEmptyArchive: true
+      archiveArtifacts artifacts: 'allure-results/**', fingerprint: true, allowEmptyArchive: true
+      archiveArtifacts artifacts: 'allure-report/**', fingerprint: true, allowEmptyArchive: true
     }
   }
 }

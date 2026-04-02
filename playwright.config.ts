@@ -10,6 +10,7 @@ export default defineConfig({
   workers: process.env.CI ? 4 : undefined,
   reporter: [
     ['list'],
+    ['allure-playwright'],
     [
       'playwright-smart-reporter',
       {
