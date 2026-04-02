@@ -21,7 +21,6 @@ pipeline {
 
     stage('Run Playwright API tests') {
       steps {
-        sh 'npx playwright install --with-deps'
         sh 'mkdir -p smart-report'
         sh 'npx playwright test'
       }
